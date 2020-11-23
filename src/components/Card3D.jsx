@@ -4,7 +4,7 @@ import React, { useState } from 'react';
         new Audio("./songs/flow-organically.mp3"),
         new Audio("./songs/psychofunk.mp3"),
         new Audio("./songs/action-soundtracking.mp3"),
-        new Audio("./songs/tim-burtonesque.mp3")
+        new Audio("./songs/TimBurtonesqueBandcamp.wav")
     ];
 
 function Card3D() {
