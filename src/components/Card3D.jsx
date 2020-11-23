@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
     const songs = [
-        new Audio("/songs/flow-organically.mp3"),
-        new Audio("/songs/psychofunk.mp3"),
-        new Audio("/songs/action-soundtracking.mp3"),
-        new Audio("/songs/tim-burtonesque.mp3")
+        new Audio("./songs/flow-organically.mp3"),
+        new Audio("./songs/psychofunk.mp3"),
+        new Audio("./songs/action-soundtracking.mp3"),
+        new Audio("./songs/tim-burtonesque.mp3")
     ];
 
 function Card3D() {
@@ -63,7 +63,7 @@ function Card3D() {
             <div className="card" style={{ transform, transition }} >
                 <div className="juan">
                     <div className="circle"></div>
-                    <img src="/cleanjuan.png" style={{ transform: juanTransform }} alt="" />
+                    <img src="./cleanjuan.png" style={{ transform: juanTransform }} alt="" />
                </div>
                 <div className="info">
                     <h1 className="title" style={{ transform: titleTransform }}>juanSessions</h1>
